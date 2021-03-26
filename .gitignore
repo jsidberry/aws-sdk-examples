@@ -2,6 +2,29 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.swp
+.DS_Store
+launch.json
+.idea
+.classpath
+.project
+.settings
+Gemfile
+Gemfile.lock
+.metadata
+.recommenders
+php/example_code/Find_replace_confirm changes.py
+*.phar
+._*
+cpp/.vs/
+*.iml
+composer.*
+vendor/
+main.zip
+node_modules/
+cdk.out/
+package-lock.json
+*.class
 
 # C extensions
 *.so
@@ -9,6 +32,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+build_dir/
 develop-eggs/
 dist/
 downloads/
@@ -38,6 +62,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+README.html
 htmlcov/
 .tox/
 .nox/
